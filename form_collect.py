@@ -185,3 +185,7 @@ if user_trajectory:
             writer.writerow(row)
             
     print(f"Saved trajectory comparison to {out_file}")
+    decision = input("Run the animation, if not type 'n': ")
+    if decision != 'n':
+        with open("animator.py", "r") as fp:
+            exec(fp.read())
