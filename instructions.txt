@@ -1,0 +1,11 @@
+1. Get a mp4 format video (preferably from the right side).
+2. Run the form_extract.py python file.
+3. You will be prompted with an input, write it full, like "name_of_video.mp4".
+4. Then It will ask you for the name to save the form information into, just write the name !!! NO NEED FOR .csv AT THE END !!!.
+
+5. Run form_collect.pypython file
+6. You will be prompted with an input, write the name of the file you want to use  !!! INCLUDING THE .csv !!!.
+7. Position yourself similar to the body from the mp4 video used. 
+(the number on the left will measure how close you are, if the number is .45 and lower the recording will be available)
+8. Once you are ready shoot the ball, so your whole arm is visible
+9. You will be prompted with an input, if you put ANYTHING other than "n" the animation won't run, and you will need to run the file manually.
